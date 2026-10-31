@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fiverr Intelligence Lab Privacy Policy — MR ToolLab</title>
+<meta name="description" content="Privacy policy for the Fiverr Intelligence Lab Chrome extension by MR ToolLab: what is stored, where, Chrome Sync, AI providers, permissions and your control.">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #0e0f13; color: #eceef3; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; line-height: 1.65; }
+  main { max-width: 840px; margin: 0 auto; padding: 48px 22px 64px; }
+  .brand { letter-spacing: .18em; font-size: 12px; font-weight: 700; color: #8f96ff; text-transform: uppercase; }
+  h1 { font-size: 40px; margin: 6px 0 4px; line-height: 1.15; }
+  .sub { color: #9aa1b3; margin: 0 0 28px; }
+  h2 { font-size: 21px; margin: 36px 0 10px; }
+  p, li { color: #c6cad6; font-size: 16px; }
+  b, th { color: #f1f2f6; }
+  a { color: #8f96ff; }
+  code { background: #1c1f27; padding: 1px 6px; border-radius: 5px; font-size: 13.5px; color: #dfe2ea; }
+  .card { background: #16181e; border: 1px solid #262a34; border-radius: 14px; padding: 18px 20px; }
+  .card p { margin: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 6px; font-size: 15px; }
+  th, td { text-align: left; padding: 9px 12px; border: 1px solid #262a34; vertical-align: top; color: #c6cad6; }
+  th { background: #16181e; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .foot { margin-top: 48px; padding-top: 18px; border-top: 1px solid #262a34; color: #80869a; font-size: 14px; }
+  @media (max-width: 600px) { h1 { font-size: 32px; } table { font-size: 14px; } th, td { padding: 8px; } }
+</style>
+</head>
+<body>
+<main>
+  <span class="brand">MR ToolLab</span>
+  <h1>Privacy Policy</h1>
+  <p class="sub">Fiverr Intelligence Lab for Chrome · version 1.1.0 · effective 31 October 2026</p>
+
+  <div class="card"><p><b>In short:</b> Fiverr Intelligence Lab keeps your data in your own browser, with automatic backups there and — if you allow it — a private copy of your conversations and settings in <i>your own</i> Google account through Chrome Sync. MR ToolLab runs no server for this extension and never receives, sells or shares your data. There is no account, no analytics, no advertising and no tracking. Data leaves your browser only (1) when the extension reads Fiverr pages for you, (2) when you use the AI chat — then your message and the Fiverr data needed to answer it go to the AI provider <i>you</i> chose, with <i>your</i> API key — and (3) through Chrome Sync, if it is on.</p></div>
+  <p>Fiverr Intelligence Lab is an independent tool. It is not affiliated with, endorsed by or sponsored by Fiverr International Ltd. "Fiverr" is a trademark of its owner.</p>
+
+  <h2>1. What is stored, and where</h2>
+  <p>Everything below is saved with Chrome's <code>chrome.storage.local</code> API, on your computer, inside your Chrome profile.</p>
+  <table>
+    <tr><th>Data</th><th>Why</th></tr>
+    <tr><td>Your Fiverr username and a snapshot of your <b>public</b> seller profile (display name, photo link, headline, description, gigs, prices, reviews, portfolio)</td><td>"My Profile", rankings and advice about your own gigs. Refreshed on the schedule you choose.</td></tr>
+    <tr><td>AI conversations (your messages, answers and the result cards)</td><td>The chat history in the dashboard. Kept for the period you choose (30 days, 90 days, 1 year or until you delete them).</td></tr>
+    <tr><td>AI provider settings: which providers you connected, their models and <b>your API keys</b></td><td>To send your chat requests to the provider you chose. Keys are never sent anywhere else and are <b>never synced</b>.</td></tr>
+    <tr><td>Saved public Fiverr search pages, gig numbers, keyword research, competitor analyses, rank-check history and Live Mode stats</td><td>So the same Fiverr page isn't requested again within the reuse window you set. With "Automatic clean-up" on (the default), this cached data is deleted once a day after 14 days (7, 14 or 31 — your choice), and rank-check history after the period you keep conversations.</td></tr>
+    <tr><td>Settings and preferences (theme, refresh interval, speed, Live Mode options)</td><td>Remembering your choices.</td></tr>
+    <tr><td>Automatic backups of the items above (daily, before every update and before restores / factory reset)</td><td>So your data can be recovered. Restorable in Settings → Data &amp; storage.</td></tr>
+  </table>
+
+  <h2>2. Chrome Sync</h2>
+  <p>If you are signed in to Chrome with sync on (including <i>Extensions</i>) and keep "Sync with Chrome Sync" on in the extension, your <b>conversations and settings</b> are also stored with Chrome's <code>chrome.storage.sync</code> API so they appear on every Chrome signed in to your Google account and come back on a new computer. This copy lives in your Google account under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>; MR ToolLab cannot access it. <b>API keys, saved Fiverr pages, rank history and profile snapshots are not synced.</b> Turn it off in Settings → Data &amp; storage.</p>
+
+  <h2>3. When data leaves your browser</h2>
+  <ul>
+    <li><b>Fiverr.</b> The extension opens public Fiverr pages (search results, gigs, seller profiles) in your browser — in hidden frames or a background tab — exactly as if you visited them, using your normal browser session. It only does this for what you ask for, for Live Mode on pages you browse, and for the scheduled refresh of your own profile. It never reads your Fiverr messages, orders, payments, password or cookies, and never sends anything to Fiverr on your behalf (no messages, no orders, no edits).</li>
+    <li><b>Robot checks.</b> When Fiverr asks for a "Press &amp; Hold" check, the extension stops all requests and waits for you to complete it yourself. It never solves or bypasses such checks.</li>
+    <li><b>AI providers (only if you use the AI chat).</b> Your message, the conversation so far and the Fiverr data needed to answer are sent directly from your browser to the provider you connected (for example Google Gemini, Groq, OpenRouter, Mistral, GitHub Models, NVIDIA, Cerebras, Cohere, Hugging Face, Z.ai, xAI, OpenAI, Anthropic, DeepSeek, a local model on your own computer, or a custom endpoint you enter), authenticated with your own API key. That provider's privacy policy and terms apply to what you send. MR ToolLab does not see these requests.</li>
+    <li><b>Chrome Sync</b> as described in section 2.</li>
+    <li>No analytics, no telemetry, no advertising and no remote code — all code ships inside the extension.</li>
+  </ul>
+
+  <h2>4. Permissions and what they are used for</h2>
+  <table>
+    <tr><th>Permission</th><th>Use</th></tr>
+    <tr><td>Access to <code>fiverr.com</code></td><td>Read the Fiverr pages you research and show Live Mode ("Gig stats" buttons and panel) on fiverr.com.</td></tr>
+    <tr><td><code>storage</code>, <code>unlimitedStorage</code></td><td>Keep the data in section 1 locally (unlimited so saved pages and backups fit), and the Chrome Sync copy in section 2.</td></tr>
+    <tr><td><code>tabs</code>, <code>scripting</code></td><td>Read a Fiverr page in a background tab when a quick read is not enough, and add Live Mode to Fiverr tabs that were already open when the extension was installed or updated.</td></tr>
+    <tr><td><code>declarativeNetRequest</code></td><td>Lets Fiverr pages load inside the extension's own hidden reader frames. It applies only to frames opened by the extension's dashboard or by a fiverr.com page with the extension's reader marker — never to other websites and never to your normal browsing.</td></tr>
+    <tr><td><code>alarms</code></td><td>The scheduled profile refresh, daily backups and sync checks.</td></tr>
+    <tr><td><code>notifications</code></td><td>Tell you when Fiverr asks for a robot check or a task finishes.</td></tr>
+    <tr><td><i>Optional</i> AI provider sites (and <code>localhost</code> / a custom https address)</td><td>Requested only when you connect that provider, so your chat requests can reach it.</td></tr>
+  </table>
+
+  <h2>5. Your control</h2>
+  <ul>
+    <li><b>Keep conversations &amp; rank history for</b> 30 days, 90 days (default), 1 year or always — older ones are deleted automatically (conversations on all synced devices when sync is on).</li>
+    <li><b>Automatic clean-up</b> of cached Fiverr data, on by default, with a "Clean up now" button. You are asked about Chrome Sync and automatic clean-up the first time you open the extension.</li>
+    <li><b>View and delete</b> any stored category or single record in Settings → Data &amp; storage; "Delete all data" removes everything except settings and AI keys.</li>
+    <li><b>Factory reset</b> removes everything, including settings and AI keys (and, with sync on, the synced conversations and settings).</li>
+    <li><b>Restore</b> any automatic backup, or <b>export</b> a conversation as a file.</li>
+    <li><b>Turn off Chrome Sync</b> for the extension in Settings → Data &amp; storage.</li>
+    <li><b>Uninstalling</b> removes the local data from Chrome. The Chrome Sync copy stays in your Google account until you delete it in the extension or clear your Chrome sync data.</li>
+    <li>Optional permissions can be removed at <code>chrome://extensions</code> → Fiverr Intelligence Lab → Details.</li>
+  </ul>
+
+  <h2>6. Children</h2>
+  <p>The extension is a tool for Fiverr sellers and is not directed at children. MR ToolLab does not knowingly collect personal information from anyone, and does not collect any data at all.</p>
+
+  <h2>7. Changes and contact</h2>
+  <p>If these practices change, this policy will be updated here and in the extension with a new effective date. Questions: <a href="mailto:therehanco@gmail.com">therehanco@gmail.com</a>.</p>
+
+  <div class="foot">© MR ToolLab · Fiverr Intelligence Lab Privacy Policy · <a href="terms.html">Terms of Use</a></div>
+</main>
+</body>
+</html>
